@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header/navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main message */
+section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Add hover effect for navigation links */
+nav a:hover {
+    color: #ff9900; /* Change color on hover */
+}
+
+/* Add some spacing around the main message */
+section {
+    margin: 10px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+}
